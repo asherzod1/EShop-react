@@ -1,0 +1,44 @@
+.logo{
+    width: 40px;
+    height: 42px;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    background-color: #F6F6F6;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin: 0px 14px;
+    position: relative;
+}
+.like-count{
+    text-decoration: none;
+    position: absolute;
+    font-size: 14px;
+    top: 2px;
+    right: 2px;
+    background-color: red;
+    color: white;
+    padding: 0px 2px;
+    border-radius: 10px;
+    line-height: 120%;
+}
+.cart-count{
+    text-decoration: none;
+    position: absolute;
+    font-size: 14px;
+    top: 2px;
+    right: 2px;
+    background-color: #09CC66;
+    color: white;
+    padding: 0px 2px;
+    border-radius: 10px;
+    line-height: 120%;
+}
+.slick-prev{
+
+    &::before{
+        content: '';
+    }
+}

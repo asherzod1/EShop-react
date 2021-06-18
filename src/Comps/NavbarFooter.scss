@@ -42,3 +42,46 @@
         content: '';
     }
 }
+
+
+
+
+//footer
+.footer{
+    padding: 50px 0;
+}
+.f-text{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #1C1C33;
+    margin-bottom: 18px;
+}
+.f-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1C33;
+    opacity: 0.3;
+    margin-bottom: 18px;
+    text-decoration: none;
+    &:hover{
+        opacity: 0.9;
+        color: #1C1C33;
+    }
+}
+.f-icons{
+    color: #1C1C33;
+}
+
+.f-p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #919193;
+}
+.f-btn{
+    display: block;
+    padding: 20px 35px;
+}

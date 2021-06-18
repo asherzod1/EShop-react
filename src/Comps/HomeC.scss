@@ -23,6 +23,7 @@
     border-radius: 4px;
     text-decoration: none;
     margin-bottom: 80px;
+    border: 1px solid #09CC66;
     &:hover{
         color: #09CC66;
         border: 1px solid #09CC66;
@@ -44,6 +45,7 @@
         box-shadow: 0px 7px 15px rgba(9, 204, 102, 0.33);
         border-radius: 4px;
         background-color: #09CC66;
+        border: 1px solid #09CC66;
         &:hover{
             background-color: #fff;
             color: #09CC66;
@@ -58,6 +60,7 @@
         box-shadow: 0px 7px 15px rgba(9, 204, 102, 0.33);
         border-radius: 4px;
         background-color: #F5DF0A;
+        border: 1px solid #F5DF0A;
         &:hover{
             background-color: #fff;
             color: #F5DF0A;
@@ -66,4 +69,15 @@
         }
     }
 
+}
+.card-cart-btn{
+    border: '1px solid #09CC66';
+    width:'50px';
+    height:'50px';
+    border-radius: 50px;
+    background-color: #09CC66;
+    &:hover{
+        color: #09CC66;
+        background-color: #fff;
+    }
 }

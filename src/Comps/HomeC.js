@@ -86,7 +86,7 @@ const HomeC = () => {
                         {products.map(item => <div className='col-md-3 col-sm-12'> <Card  style={{padding:'16px', border:'none'}}>
                         <CardImg top width="100%" src={item.img} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle tag="h5">{item.name}</CardTitle>
+                            <CardTitle tag="h5" style={{height: '51px', overflow:'hidden'}}>{item.name}</CardTitle>
                             <CardText>
                                 <div className='d-flex justify-content-between mb-5'>
                                     <div className="stars">
@@ -105,7 +105,7 @@ const HomeC = () => {
                                     <Button style={{width:'50px', height:'50px', borderRadius:'50px 0 0 50px', backgroundColor:'#f4f4f4', color: '#000', border:'none'}}><AiOutlineHeart></AiOutlineHeart></Button>
                                     <Button style={{width:'50px', height:'50px', borderRadius:'0px 50px 50px 0px', backgroundColor:'#f4f4f4', color: '#000', border:'none'}}><RiScales3Line/></Button>
                                 </ButtonGroup>
-                                <Button style={{width:'50px', height:'50px', borderRadius:'50px', backgroundColor:'#09CC66', border:'none'}}><AiOutlineShoppingCart/></Button>
+                                <Button className='card-cart-btn' style={{border: '1px solid #09CC66',width:'50px', height:'50px', borderRadius:'50px', backgroundColor:'#09CC66'}}><AiOutlineShoppingCart/></Button>
                             </div>
                         </CardBody>
                     </Card> </div>)}
